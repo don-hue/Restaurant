@@ -1,0 +1,39 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50vh;
+    width: 80%;
+    margin: 5rem;
+    padding: 10px;
+
+    .box{
+        height: 20rem;
+        width: 15rem;
+        background-color:rgba($mainColor, 0.8);
+
+        border-radius: 10px;
+
+        text-align: center;
+        padding-top: -10px;
+
+        h3{
+            font-family: 'Miss Fajardose';
+            font-size: 3rem;
+            font-weight: 400;
+            color: darken($homeColor, 40);
+            margin-top: 1rem;
+            margin-bottom: 0rem;
+        }
+
+        p{
+            font-family: 'Miss Fajardose';
+            font-size: 2rem;
+            font-weight: 400;
+            color: darken($homeColor, 40); 
+            margin-top: 0.5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
+}

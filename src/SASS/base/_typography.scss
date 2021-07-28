@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Miss Fajardose';
+    src: url('/src/SASS/Font/MissFajardose-Regular.ttf');
+    font-style: normal;
+}
+
+h2{
+    font-family: 'Miss Fajardose';
+    font-size: 5rem;
+    font-weight: 400;
+    color: $homeColor;
+
+    margin-top: 1rem;
+}

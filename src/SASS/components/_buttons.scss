@@ -1,0 +1,13 @@
+.Button{
+    width: 100%;
+    background-color: rgba($mainColor, $alpha: 0.1);
+    color: $buttonColor;
+    font-size: 3rem;
+    font-family: 'Miss Fajardose';
+    border: none;
+
+    &:hover{
+        background-color: rgba(darken($color: $mainColor, $amount: 20), 0.5);
+        
+    }
+}
